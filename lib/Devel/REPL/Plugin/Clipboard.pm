@@ -45,7 +45,7 @@ around 'format_result' => sub {
 
 	# Remove any color control characters that plugins like
 	# Data::Printer may have added
-	my $output = colorstrip( join( "\n", @ret ) );
+	my $output = colorstrip( join( "\n", @ret // () ) );
 
 	$self->last_output($output);
 
