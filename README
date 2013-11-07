@@ -2,7 +2,7 @@ NAME
     Devel::REPL::Plugin::Clipboard - #clip output to clipboard
 
 VERSION
-    version 0.002
+    version 0.003
 
 COMMANDS
     This module provides the following command to your Devel::REPL shell:
