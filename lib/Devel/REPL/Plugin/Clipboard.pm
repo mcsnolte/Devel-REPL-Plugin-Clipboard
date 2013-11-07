@@ -4,7 +4,6 @@ package Devel::REPL::Plugin::Clipboard;
 
 use Devel::REPL::Plugin;
 use namespace::autoclean;
-use MooseX::AttributeHelpers::Collection::Array;
 use Clipboard;
 use Term::ANSIColor 2.01 qw(colorstrip);
 
